@@ -40,57 +40,27 @@ input[type=submit],input[type=reset]{0px 20x 0px 20px; background-color: #a30000
   <section style id="form-main">
     <div id="form">
     <div class="container">
-       <h1 class="page-title"> Registration Details</h1>
+       <h1 class="page-title"> Sign In </h1>
        <br>
 
-       <h3> Registration Details</h3>
-       <p> Please fill out all the following fields marked with an asterisk (*), as they are required to process car registration. </p>
-       <p> Hover over the Selected field to find out correct formatting and to view an example </p>
-       <form name="orderform" onSubmit="return validate(orderform)">
+       
+       <form name="logon" onSubmit="return validate(logon)">
 	     <br>
 
          <h4> Personal Details </h4>
-         <label for="firstname">First Name*:</label>
-         <input type="text" pattern="[a-zA-Z]*" title="Your First Name Must only contain Letters (eg. John)" name="firstname" placeholder=" Enter First Name">
+         <label for="firstname">Username:</label>
+         <input type="text" pattern="[a-zA-Z]*" name="firstname" placeholder=" Enter Username here">
          <br>
          <br>
 
-         <label for="lastname">Last Name*:</label>
-         <input type="text" pattern="[a-zA-Z]*" title="Your Last Name Must only contain Letters (eg. Smith)" name="lastname" placeholder="Enter Last Name">
-         <br>
-         <br>
-
-		 <h4> Contact Details </h4>
-         <label for="email">Email Address*:</label>
-         <input type="email" name="email" title="Your Email address Must be formatted like the example (eg. John@gmail.com)" placeholder="you@example.com">
-         <br>
-         <br>
-
-         <label for="phone">Phone Number*:</label>
-         <input type="number" name="phone"  title="Your Phone Number Must only contain ten Numbers including area code (eg. 0392446100)" placeholder="Enter Phone Number" maxlength="10">
-         <br>
-         <br>
-
-		 <h4> Car Details </h4>
-         <label for="cardholderfirst">Car Brand*:</label>
-         <input type="text">
-         <br>
-         <br>
-
-         <label for="cardholderlast">Car Number Plate:</label>
-         <input type="text">
-         <br>
-         <br>
-
-         <label for="cardno"> Car Colour:</label>
-         <input type="text">
+         <label for="lastname">Paswword:</label>
+         <input type="text" pattern="[a-zA-Z]*" name="Username" placeholder="Enter password here">
          <br>
          <br>
 
 
-
-         <input type="submit"  value="REGISTER">
-         <input type="reset"  value="RESET">
+         <input type="submit"  value="SIGN IN">
+         <input type="reset"  value="CREATE AN ACCOUNT">
 
          <br>
          <br>
@@ -103,15 +73,6 @@ input[type=submit],input[type=reset]{0px 20x 0px 20px; background-color: #a30000
      </section>
 
 
-  <section id="newsletter">
-    <div class="container">
-      <h1> Subscribe To Our Newsletter</h1>
-      <form>
-        <input type="email" placeholder="Enter Email Address...">
-        <button type= "submit" class="button_1"> Subscribe</button>
-      </form>
-    </div>
-  </section>
 
 
 
