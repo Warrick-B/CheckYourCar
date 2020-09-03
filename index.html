@@ -8,7 +8,19 @@
     <link rel="stylesheet" href="./stylesheet.css">
     <meta name="viewport" content="width=device-width">
   </head>
+  <style>
 
+    input[type=text], input[type=email], input[type=number], textarea
+   {display;flex; border:1px solid #000000; border-radius: 4px; padding:8px;
+   
+   }
+       div#form_content{padding:20px;border-radius: 4px; max-width: 400px;margin: 0 auto;}
+   input[type=submit],input[type=reset]{0px 20x 0px 20px; background-color: #a30000;
+    border-radius: 4px; border: 0 ; font-size: 18px; color: #ffffff;  
+   }
+   
+  
+  </style>
   <body>
 
     <header>
@@ -37,9 +49,37 @@
          <article id="main-body">
            <h3> Saftey is the utmost importance when driving a motor vehicle. Please enter you car details in the form below to find out if your vehicle has been affect by any safety recalls</h3>
             <hr>
+            <form action="">
+              <label  style ="font-size: 26px;"for="cars">Choose a car make:</label>
+              <select style ="font-size: 26px; "name ="cars" id="cars">
+                <option value="" disabled selected hidden>Choose car make...</option>
+                <option value="">Toyota</option>
+                <option value="Mazda">Mazda</option>
+                <option value="Kia">Kia</option>
+                <option value="bmw">BMW</option>
+                <option value="Holden">Holden</option>
+              </select>
+              <br>
+              <br>
+              <label  style ="font-size: 26px;"for="cars">Choose a car model:</label>
+              <select style ="font-size: 26px; "name ="cars" id="cars">
+                <option value="" disabled selected hidden>Choose car model...</option>
+                <option value="x3">X3</option>
+                <option value="320i">320i</option>
+                <option value="Z4">Z4</option>
+              </select>
+              <br>
+              <br>
+              <input style="font-size: 22px;" type="submit" value="Search">
+              <br>
+              <hr>
+
+
+            </form>
+            <p style="font-size: 24px;">Or Please type in your License plate number</h3>
           <label for="email">License Plate Number:</label>
-         <input type="LP" name="LP" title="License Plate Must be formatted like the example (eg. ABC 123)" placeholder="ABC123">
-         <input type="submit" name="search" value="Search">
+         <input style="font-size: 24px;" type="LP" name="LP" title="License Plate Must be formatted like the example (eg. ABC 123)" placeholder="ABC123">
+         <input style="font-size: 22px;" type="submit" name="search" value="Search">
          <br>
            <p style="text-align:center; font-size: 24px; color:red"> Please subscribe to automatically be notified when a new
                 recall or issues has been added to our database.</p>
@@ -53,8 +93,8 @@
       <div class="container">
         <h1> Subscribe To Our Newsletter</h1>
         <form>
-          <input type="email" placeholder="Enter Email Address...">
-          <button type= "submit" class="button_1"> Subscribe</button>
+          <input style="font-size: 22px;"type="email" placeholder="Enter Email Address...">
+          <button style="font-size: 22px;" type= "submit" class="button_1"> Subscribe</button>
         </form>
       </div>
     </section>
