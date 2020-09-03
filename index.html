@@ -1,0 +1,115 @@
+
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <title>Check Your Car - Home</title>
+    <link rel="stylesheet" href="./stylesheet.css">
+    <meta name="viewport" content="width=device-width">
+  </head>
+  <style>
+
+    input[type=text], input[type=email], input[type=number], textarea
+   {display;flex; border:1px solid #000000; border-radius: 4px; padding:8px;
+   
+   }
+       div#form_content{padding:20px;border-radius: 4px; max-width: 400px;margin: 0 auto;}
+   input[type=submit],input[type=reset]{0px 20x 0px 20px; background-color: #a30000;
+    border-radius: 4px; border: 0 ; font-size: 18px; color: #ffffff;  
+   }
+   
+  
+  </style>
+  <body>
+
+    <header>
+      <div class="container">
+        <div id ="header">
+         <h1> Check Your Car </h1>
+      </div>
+      <nav>
+        <ul>
+          <li class="current"><a href="index.html">HOME</a></li>
+          <li><a href="sign_in.html">SIGN IN PORTAL</a><li>
+        </ul>
+      </nav>
+    </div>
+    </header>
+
+    <section id="showcase">
+      <div class="container" title="Car yard">
+        <h1>IMPORTANT NOTICE!</h1>
+        <p style="text-align:center; font-size: 24px; color: white"> URGENT RECALL of 2.3 million vehicles with defective Takata airbags </p>
+      </div>
+    </section>
+
+    <section id="Main-body">
+        <div class="container">
+         <article id="main-body">
+           <h3> Saftey is the utmost importance when driving a motor vehicle. Please enter you car details in the form below to find out if your vehicle has been affect by any safety recalls</h3>
+            <hr>
+            <form action="">
+              <label  style ="font-size: 16px;"for="cars">Choose a car make:</label>
+              <select style ="font-size: 16px; "name ="cars" id="cars">
+                <option value="" disabled selected hidden>Choose car make...</option>
+                <option value="">Toyota</option>
+                <option value="Mazda">Mazda</option>
+                <option value="Kia">Kia</option>
+                <option value="bmw">BMW</option>
+                <option value="Holden">Holden</option>
+              </select>
+              <br>
+              <br>
+              <label  style ="font-size: 16px;"for="cars">Choose a car model:</label>
+              <select style ="font-size: 16px; "name ="cars" id="cars">
+                <option value="" disabled selected hidden>Choose car model...</option>
+                <option value="x3">X3</option>
+                <option value="320i">320i</option>
+                <option value="Z4">Z4</option>
+              </select>
+              <br>
+              <br>
+              <input style="font-size: 20px;" type="submit" value="Search">
+              <br>
+              <hr>
+
+
+            </form>
+            <p style="font-size: 16px;">Or Please type in your License plate number</h3>
+         <input style="font-size: 16px;" type="LP" name="LP" title="License Plate Must be formatted like the example (eg. ABC 123)" placeholder="ABC123">
+         <br>
+         <br>
+         <input style="font-size: 20px;" type="submit" name="search" value="Search">
+         <br>
+           <p style="text-align:center; font-size: 22px; color:red"> Please subscribe to automatically be notified when a new
+                recall or issues has been added to our database.</p>
+        </div>
+    </section>
+
+
+
+
+    <section id="newsletter">
+      <div class="container">
+        <h1> Subscribe To Our Newsletter</h1>
+        <form>
+          <input style="font-size: 18px;"type="email" placeholder="Enter Email Address...">
+          <button style="font-size: 18px;" type= "submit" class="button_1"> Subscribe</button>
+        </form>
+      </div>
+    </section>
+
+    <footer>
+      <p>50 Gaffney Street Port Melbourne, Victoria  Email: enquiries@checkyourcar.com.au <br>
+        copyright © Check Your Car AUS, Ltd. All rights reserved  <p>
+    <br>
+    <br>
+    </footer>
+    </section>
+   </div>
+
+  </section>
+
+</body>
+</html>

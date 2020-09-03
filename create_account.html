@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+ <meta charset="utf-8">
+ <title>Check Your Car | Create an Account</title>
+ <link rel="stylesheet" href="./stylesheet.css">
+ <meta name="viewport" content="width=device-width">
+<head>
+    <script>
+  function click_create() {
+    alert ("Thank you for creating an account, please sign in by returning to the sign in portal");
+  }
+  </script>
+
+<style>
+
+ input[type=text], input[type=email], input[type=number], textarea
+{display;flex; border:1px solid #000000; border-radius: 4px; padding:8px;
+
+}
+    div#form_content{padding:20px;border-radius: 4px; max-width: 400px;margin: 0 auto;}
+input[type=submit],input[type=reset]{0px 20x 0px 20px; background-color: #a30000;
+ border-radius: 4px; border: 0 ; font-size: 18px; color: #ffffff;
+}
+
+</style>
+
+</head>
+
+  <body>
+    <header>
+      <div class="container">
+        <div id ="header">
+         <h1> Check Your Car </h1>
+      </div>
+      <nav>
+        <ul>
+          <li> <a href="index.html">HOME</a></li>
+          <li> <a href="sign_in.html">SIGN IN PORTAL</a><li>
+        </ul>
+      </nav>
+    </div>
+    </header>
+
+  <section style id="form-main">
+    <div id="form">
+    <div class="container">
+       <h1 class="page-title"> Create a New Account </h1>
+ 
+       <form name="logon" onSubmit="return validate(logon)">
+	     <br>
+
+          <h4> Username and Password </h4>
+         <label for="firstname">Username:</label>
+         <input type="text" pattern="[a-zA-Z]*" name="firstname" placeholder=" Enter Username here">
+         <br>
+         <br>
+
+         <label for="lastname">Password:</label>
+         <input type="text" pattern="[a-zA-Z]*" name="Username" placeholder="Enter password here">
+         <br>
+         <br>
+	       
+	       <h4> Personal Details </h4>
+          <label for="firstname">First Name*:</label>
+          <input type="text" pattern="[a-zA-Z]*" title="Your First Name Must only contain Letters (eg. John)"
+            name="firstname" placeholder=" Enter First Name">
+          <br>
+          <br>
+
+          <label for="lastname">Last Name*:</label>
+          <input type="text" pattern="[a-zA-Z]*" title="Your Last Name Must only contain Letters (eg. Smith)"
+            name="lastname" placeholder="Enter Last Name">
+          <br>
+          <br>
+
+          <h4> Contact Details </h4>
+          <label for="email">Email Address*:</label>
+          <input type="email" name="email"
+            title="Your Email address Must be formatted like the example (eg. John@gmail.com)"
+            placeholder="you@example.com">
+          <br>
+          <br>
+
+          <label for="phone">Phone Number*:</label>
+          <input type="number" name="phone"
+            title="Your Phone Number Must only contain ten Numbers including area code (eg. 0392446100)"
+            placeholder="Enter Phone Number" maxlength="10">
+          <br>
+          <br>
+          <input type="submit"  value="CREATE AN ACCOUNT" onclick="click_create()">
+
+          <br>
+          <br>
+          <br>
+       </form>
+    </div>
+     </div>
+     </section>
+      <footer>
+        <p>50 Gaffney Street Port Melbourne, Victoria  Email: enquiries@checkyourcar.com.au <br>
+          copyright © Check Your Car AUS, Ltd. All rights reserved  <p>
+		  <br>
+      </footer>
+      </section>
+     </div>
+    </section>
+  </body>
+</html>
