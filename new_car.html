@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<meta charset="utf-8">
+<title>Check Your Car - Sign In</title>
+<link rel="stylesheet" href="./stylesheet.css">
+<meta name="viewport" content="width=device-width">
+
+<head>
+  <script>
+    function add_car() {
+      alert("Your Car has been successfully added, You will now be reutned to your account page");
+    }
+  </script>
+
+  <style>
+    input[type=text],
+    input[type=email],
+    input[type=number],
+    textarea {
+      display;
+      flex;
+      border: 1px solid #000000;
+      border-radius: 4px;
+      padding: 8px;
+
+    }
+
+    div#form_content {
+      padding: 20px;
+      border-radius: 4px;
+      max-width: 400px;
+      margin: 0 auto;
+    }
+
+
+    .button {
+      10px 20px 10px 20px;
+      text-decoration: none;
+      background-color: #a30000;
+      border-radius: 4px;
+      border: 20px;
+      font-size: 20px;
+      color: #ffffff;
+    }
+  </style>
+
+</head>
+
+<body>
+  <header>
+    <div class="container">
+      <div id="header">
+        <img src="checkyourcar.jpg" width="55%" height="25%"></img>
+      </div>
+      <nav>
+        <ul>
+          <li class="current"><a href="index.html">HOME</a></li>
+          <li><a href="new_car.html">REGISTER NEW CAR</a>
+          <li><a href="index.html">SIGN OUT</a>
+
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section style id="form-main">
+    <div id="form">
+      <div class="container">
+        <h1 class="page-title"> Register New Car </h1>
+        <p>All fields are required</p>
+
+        <form name="logon">
+          <br>
+
+
+          <label for="Car_make">Car Make:</label>
+          <input type="text" pattern="[a-zA-Z]*" name="Car_make" placeholder=" Enter Car Make ">
+          <br>
+          <br>
+
+          <label for="Car_model">Car Model:</label>
+          <input type="text" pattern="[a-zA-Z]*" name="Car_model" placeholder="Enter Car Model ">
+          <br>
+          <br>
+          <label for="Car_model">Car Registration number:</label>
+          <input type="text" pattern="[a-zA-Z]*" name="Car_model" placeholder="Enter Car Registration ">
+          <br>
+          <br>
+
+          <a href='my_account.html' class="button" onclick='add_car();'>ADD CAR</a>
+
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+
+        </form>
+      </div>
+    </div>
+  </section>
+
+
+  <footer>
+    <p>50 Gaffney Street Port Melbourne, Victoria Email: enquiries@checkyourcar.com.au <br>
+      copyright © Check Your Car AUS, Ltd. All rights reserved
+    <p>
+      <br>
+  </footer>
+
+
+
+  </section>
+  </div>
+
+  </section>
+
+</body>
+
+</html>
